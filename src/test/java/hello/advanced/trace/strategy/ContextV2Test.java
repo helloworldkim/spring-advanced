@@ -16,7 +16,6 @@ public class ContextV2Test {
         contextV2.execute(strategy);
         contextV2.execute(() -> log.info("비즈니스 로직2 수행"));
 
-
     }
 
 }
